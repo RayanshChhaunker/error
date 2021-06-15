@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-image: url('background.jpg');
+}
+body hr{
+    background-color: black;
+    height: 3.5px;
+}
+#buttontake:hover{
+    background-color: red;
+}
+body canvas{
+    border: 3px dotted black;
+    animation-name: freeshow;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes freeshow {
+    from {box-shadow: 1px 1px 35px green;}
+    to {box-shadow: 1px 1px 35px blue;}
+}
